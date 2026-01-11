@@ -1,3 +1,20 @@
+## Como instalar e testar
+
+### Android
+
+ 1. Clone este projeto<br>`git clone https://github.com/jfoclpf/form-for-parking-violation`
+ 2. Entre na pasta recém criada<br>`cd form-for-parking-violation`
+ 3. Adicione a plataforma<br>`cordova platform add android`
+ 3. Corra `cordova build android` para construir o projeto na sua máquina. Em Android cria o ficheiro APK na pasta `platforms/android/build/outputs/apk`
+
+### iOS
+```
+git clone https://github.com/jfoclpf/form-for-parking-violation.git
+cd form-for-parking-violation
+cordova platform add ios
+open platforms/ios/Denúncia\ Estacionamento.xcworkspace/
+```
+
 ## Requisitos
 
 Todas estas instruções estão otimizadas para uma máquina Ubuntu.
@@ -135,3 +152,9 @@ cordova emulate android --target=emulator
 ## Plugins necessários
 
 * ver ficheiro `package.json`.
+
+## Contribuições são muito bem-vindas
+
+ * Usamos StandardJS para o código
+ * Respeite a estrutura dos ficheiros
+ * Comente sempre o código (preferencialmente em Inglês), tal ajuda os outros a compreender as suas contribuiçes
