@@ -26,7 +26,8 @@ O [código](https://github.com/jfoclpf/form-for-parking-violation) é totalmente
 ## Mapa de Ocorrências
 
 Graças à contribuição do [Luís Oliveira](https://github.com/luismbo), é possível observar todas as ocorrências registadas, de forma anónima.<br>
-https://mapa.denuncia-estacionamento.app/
+
+[https://mapa.denuncia-estacionamento.app](https://mapa.denuncia-estacionamento.app/)
 
 ## API 
 
