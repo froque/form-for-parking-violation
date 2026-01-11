@@ -1,7 +1,7 @@
 # Informação do projeto
 title: "APP Denúncia de Estacionamento"
 description: "APP  que permite que os cidadãos possam reportar às autoridades veículos ilegalmente estacionados, ao abrigo do número 5 do artigo 170 do Código da Estrada"
-url: "https://app-denuncia-estacionamento.joaopimentel.com"
+url: "https://denuncia-estacionamento.app"
 baseurl: ""
 
 # Tema utilizado
@@ -18,6 +18,8 @@ nav_external_links:
     hide_icon: false
   - title: "APP iOS"
     url: "https://apps.apple.com/pt/app/den%C3%BAncia-estacionamento/id1560564781"   # opcional
+  - title: "Mapa das Ocorrências"
+    url: "https://mapa.denuncia-estacionamento.app/"
 
 # Plugins suportados
 plugins:
