@@ -19,4 +19,4 @@ Artigo, número e alínea do Código da Estrada.
 
 Já tivemos que remover infrações por não terem coima associada, logo, torna o efeito da APP ineficaz.
 
-CIte a aase legal (artigo, número e alínea do Código da Estrada) para a respectiva coima
+CIte a base legal (artigo, número e alínea do Código da Estrada) para a respectiva coima
