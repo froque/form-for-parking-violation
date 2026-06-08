@@ -69,13 +69,21 @@ jobs:
         cordova platform add android
     - run: cordova info
     - run: npm test
-    - name: Building APK
+    - name: Building AAB
       run: cordova build android --release
-    - name: List files
-      run: find ./platforms/android
+    - name: Building APK
+      run: cordova build android --release -- --packageType=apk
 
-    # Store as an artifact for downloading
-    - name: Upload artifact
+    # Store AAB as an artifact for downloading
+    - name: Upload AAB
       uses: actions/upload-artifact@v7
       with:
         path: ./platforms/android/app/build/outputs/bundle/release/app-release.aab
+        archive: false
+
+      # Store APK as an artifact for downloading
+    - name: Upload APK
+      uses: actions/upload-artifact@v7
+      with:
+        path: ./platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk
+        archive: false
