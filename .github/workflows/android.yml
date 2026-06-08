@@ -71,6 +71,8 @@ jobs:
     - run: npm test
     - name: Building APK
       run: cordova build android --release
+    - name: List files
+      run: find ./platforms/android
 
     # Store as an artifact for downloading
     - name: Upload artifact
